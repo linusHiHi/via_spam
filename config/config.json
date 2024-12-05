@@ -1,0 +1,55 @@
+{
+    "root": "/home/mia/Documents/python/ai/ai",
+
+    "path_to":
+    {
+        "dataset": "/dataset",
+        "original": "/source_data_set.txt",
+        "original_csv": "/source_data_set.csv",
+        "cleaned_csv": "/cleaned_data_set.csv",
+        "cleaned_pickle": "/cleaned_data_set_mv.pkl",
+        "k_fold_train_evaluation": "/k_fold_train_evaluation.pkl",
+        "final_train": "/final_train.pkl",
+        "final_test": "/final_test.pkl",
+        "statistic": "/statistic.csv",
+        "bert_model": "/all-MiniLM-L6-v2",
+        "best_parameter": "/model/best_model.json",
+
+        "model_pth": "/model/model.pth"
+    },
+
+    "data":
+    {
+        "tag_name": "Label",
+        "text_name": "Message",
+        "original_length": "original_length",
+        "code_name":
+        {
+            "spam": 0,
+            "ham": 1
+        },
+        "max_sentences": 34,
+        "nil": "000"
+    },
+
+    "cleanup":
+    {
+        "stop_words_language": "english",
+        "num_threads": 20
+    },
+
+    "hyper_para":
+    {
+        "num_layers": 1,
+        "num_classes": 2,
+        "shuffle_train": "True",
+        "shuffle_test": "False",
+        "try_times": 30
+    },
+
+
+    "pca": "False",
+    "pca_dim": 50,
+    "un_pca_dim": 384,
+    "max_sentences": 7
+}

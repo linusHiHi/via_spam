@@ -1,0 +1,2 @@
+Best trial:
+{'hidden_size': 48, 'batch_size': 16, 'learning_rate': 0.003481558607042444, 'num_epochs': 52, 'dropout': 0.0}

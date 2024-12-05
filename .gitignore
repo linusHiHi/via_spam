@@ -1,0 +1,8 @@
+/.idea/
+
+
+/dataset/statistic.csv
+/dataset/source_data_set.csv
+/dataset/k_fold_train_evaluation.pkl
+/dataset/cleaned_data_set_mv.pkl
+/all-MiniLM-L6-v2

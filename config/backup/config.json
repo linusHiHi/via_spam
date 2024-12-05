@@ -1,0 +1,26 @@
+{
+    "root": "/home/mia/Documents/python/ai/ai",
+    "dataset": {
+        "dir": "/dataset",
+        "original": "/source_data_set.txt",
+        "original_csv": "/source_data_set.csv",
+        "cleaned_csv": "/cleaned_data_set.csv",
+        "cleaned_pickle": "/cleaned_data_set.pkl"
+    },
+    "data": {
+        "tag_name": "Label",
+        "text_name": "Message",
+        "code_name": {
+            "spam": 0,
+            "ham": 1,
+            "max_sentence": 26
+        }
+    },
+    "cleanup": {
+        "stop_words_language": "english"
+    },
+    "model": "paraphrase-MiniLM-L6-v2",
+    "pca": "False",
+    "pca_dim": 50,
+    "un_pca_dim": 384
+}
